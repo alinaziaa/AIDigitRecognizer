@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="28dp"
+    android:background="#0B1224">
+
+    <!-- AI Logo -->
+    <TextView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:gravity="center"
+        android:background="#172B49"
+        android:text="AI"
+        android:textColor="#38D9FF"
+        android:textSize="42sp"
+        android:textStyle="bold"
+        android:elevation="8dp" />
+
+    <!-- App Name -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:gravity="center"
+        android:text="AIDigitRecognizer"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.01" />
+
+    <!-- Tagline -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="Recognize. Learn. Innovate."
+        android:textColor="#38D9FF"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Experience the power of Artificial Intelligence"
+        android:textColor="#A9B8D0"
+        android:textSize="13sp" />
+
+    <!-- Loading Indicator -->
+    <ProgressBar
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="42dp"
+        android:indeterminate="true"
+        android:indeterminateTint="#38D9FF" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:gravity="center"
+        android:text="INITIALIZING AI..."
+        android:textColor="#7185A4"
+        android:textSize="11sp"
+        android:letterSpacing="0.12" />
+
+    <!-- Footer -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:text="POWERED BY TENSORFLOW LITE"
+        android:textColor="#7185A4"
+        android:textSize="10sp"
+        android:letterSpacing="0.08" />
+
+</LinearLayout>
